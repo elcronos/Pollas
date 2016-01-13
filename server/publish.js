@@ -1,3 +1,2 @@
-Meteor.publish('polls', function() {
-	return Polls.find({})
+Meteor.publish('pollas', function() {
 });
