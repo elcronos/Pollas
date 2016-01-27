@@ -16,20 +16,25 @@ standard-minifiers      # JS/CSS minifiers run for production mode
 es5-shim                # ECMAScript 5 compatibility for older browsers.
 ecmascript              # Enable ECMAScript2015+ syntax in app code
 
-stylus
-semantic:ui
-kadira:flow-router
-kadira:blaze-layout
-erasaur:meteor-lodash
-spiderable
-fastclick
-raix:handlebar-helpers
-aldeed:collection2
-aldeed:autoform
+kadira:flow-router      # To create easy routes instead of iron-router
+kadira:blaze-layout     # Layout manager for Flow Router
+aldeed:collection2      # Allows attaching a schema to a collection
+aldeed:autoform         # Creates a form out of a schema
+zimme:active-route      # Route helper
+gwendall:auth-client-callbacks      # Adds client-side onLogin and onLogout methods
+
+stolinski:stylus-multi  # Style files will be done using Stylus
+
+twbs:bootstrap
+fortawesome:fontawesome
 accounts-ui
 accounts-password
 accounts-facebook
-zimme:active-route
-gwendall:auth-client-callbacks
+
+erasaur:meteor-lodash
+spiderable              # Application can be crawled by spiders, important for this project as users will likely create new pages
+fastclick               # Faster events on mobile
+raix:handlebar-helpers  # Easy way to collect session info
+check                   # Check whether a value matches a pattern
+reactive-var
 meteortoys:allthings
-check
