@@ -1,5 +1,6 @@
 <template name="HomeLayout">
-  {{> Template.dynamic template=nav}}<br><br>
-  <br>{{> Template.dynamic template=body}}<br>
-  {{> Template.dynamic template=footer}}
+  {{> loginButtons}}
+  <main class="main-layout main-content">  
+		{{> Template.dynamic template=main}}
+	</main>
 </template>

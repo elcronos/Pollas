@@ -2,8 +2,8 @@ Meteor Bogota
 
 Aplicacion: Pollas
 
-Objetivo Principal:
-Desarrollar en conjunto una aplicación para administrar las ligas de fútbol (y otros deportes).
+Objetivo Principal: 
+Desarrollar en conjunto una aplicación para administras las ligas de fútbol (y otros deportes).
 
 Objetivos Secundarios:
 - Aprender Meteor y como se integra con otras tecnologias.
@@ -13,17 +13,17 @@ Objetivos Secundarios:
 
 Herramientas:
 
-- Repositorio en GitHub:
-    - Debidamente comentado
+- Repositorio en GitHub: 
+    - Debidamente comentado 
     - Manejo de versiones
 - Trello: Para administrar tareas
 - Slack: Para comunicacion (escribir a cualquiera de los organizadores del Meetup para tener acceso)
 
 Modo de trabajo:
 
-- El arquitecto publicara las tareas pendientes y por demanda
-- Quien desee, se pedirá dicha tarea
-- Una vez terminada se hará un review del codigo por medio de un pull request
+- El arquitecto publicara las tareas pendientes y por demanda 
+- Quien desee, se pedirá dicha tarea 
+- Una vez terminada se hará un review del codigo por medio de un pull request 
 - Pasado los requisitos se tendra un commit
   - Todo el trabajo se hara en ramas (forks/branches)
 
